@@ -31,4 +31,8 @@ def handle_text(message):
         return -1
 
 
+def test_test(a: int):
+    return a**2
+
+
 bot.polling(none_stop=True, interval=0)
